@@ -1,7 +1,8 @@
 const mainWrapper = document.querySelector("#main-wrapper");
-fetch("../data/destinations.json").then((response) => response.json()).then((data) => {
-    content(data.destinations);
-
+fetch("../data/destinations.json")
+    .then((response) => response.json())
+    .then((data) => {
+        content(data.destinations);
 });
 
 function content(destinations) {
@@ -12,7 +13,7 @@ function content(destinations) {
         <figure>
             <img src="../img/${destination.image}" alt="${destination.name}">
             <figcaption>
-                <h2>${destination.title}</h2>
+                <img src="../img/heart.svg" alt="heart icon">
                 <a href="destination.html?id=${destination.id}">More</a>
             </figcaption>
         </figure>
