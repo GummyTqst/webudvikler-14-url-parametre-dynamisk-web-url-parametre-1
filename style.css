@@ -56,6 +56,20 @@ a {
 }
 
 
+.active {
+    fill: red;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
 
 /* Destination */
 #detail-wrapper {
@@ -76,7 +90,7 @@ a {
 
 .destination-image img {
     width: 100%;
-    object-fit: cover;;
+    object-fit: cover;
 }
 
 .destination-info {
