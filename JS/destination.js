@@ -40,7 +40,7 @@ function showData(data) {
         </div>
 
         <div class="back-link">
-            <a href="index.html">← Back to overview</a>
+            <a href="index.html">← Back</a>
         </div>
     </div>
     `
